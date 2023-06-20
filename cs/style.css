@@ -1,0 +1,274 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00101f;
+    color: white
+}
+/* navbar Start */
+
+.navbar{
+   
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   height:20vh ;
+   margin:auto;
+   
+}
+.left a{
+    text-decoration: none;
+    margin-left: 100px;
+    color: gray;
+    font-weight:bold;
+    font-size:25px;
+
+
+}
+.left span{
+    color: tomato;
+}
+
+.right ul {
+    display:flex;
+    margin: 0 200px;
+    text-transform: uppercase;
+    
+   
+   
+  
+}
+
+.right ul li {
+ 
+    font-weight: bold;
+    margin-left: 30px;
+    list-style: none
+    
+   
+}
+.right a{
+    text-decoration:none;
+    color:gray
+}
+.right a:hover{
+    color:white  ;
+}
+
+
+/* Hero section start */
+.hero{
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin: 0 Auto;
+    
+}
+
+.Hero_left h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.Hero_left span{
+    color: tomato;
+} 
+
+.Hero_left h2{
+    font-size: 15px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    width: 70%;
+    color:gray
+    
+  
+}
+
+button{
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    border:  1px solid tomato;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top:20px ;
+    color: white;
+}
+
+button:hover{
+    background-color: tomato;
+
+}
+
+.right img{
+    margin-right:100px ;
+    height: 70%;
+
+}
+/* Hero Section  End*/
+
+
+/* Protfolio section start */
+
+.protfolio_text h1{
+    margin-left: 100px;
+    color: tomato;
+    font-size:xx-large
+
+}
+.protfolio_text h2{
+    font-size: 20px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    width: 70%;
+    color:gray
+    
+
+}
+
+.top{
+    display: flex
+}
+
+.profilio_img{
+    display:flex ;
+    
+   
+}
+
+.profilio_img img{
+    width: 80%;
+    margin-left: 100px;
+    border-radius:20px ;
+    
+}
+
+.profilio_img .img2{
+    margin-left:-15px ;
+    width: 87%;
+}
+p{
+    margin-left: 100px;
+    color:gray
+}
+.profilio_img h1{
+    font-size: 15px;
+    font-weight: normal;
+    color: gray;
+    margin-top: 15px;
+}
+
+/* project End */
+
+/* expertise start */
+.expertise h1{
+    
+margin-left: 100px;
+color: tomato;
+
+    
+}
+.expertise p{
+    font-size:20px;
+    width: 80%;
+}
+
+/* expertise end */
+
+
+
+/* Blog start */
+
+.blog{
+    margin-top:10% ;
+}
+.blog_text{
+    display: flex;
+    width: 90%;
+}
+
+.blog_text1 h1{
+    margin-left: 100px;
+    color: tomato;
+}
+
+.blog_text h2{
+    margin-left: 100px;
+    color: tomato;
+    font-weight:lighter ;
+
+}
+.blog_text h3{
+    margin-left: 100px;
+}
+
+.blog_text span{
+    color: tomato;
+}
+
+/* blog End */
+
+/* contact start */
+
+.contact{
+    margin-top: 10%;
+}
+
+.conatct_text{
+    display: flex;
+}
+
+.contact_left h1{
+    margin-left: 100px;
+    color: tomato;
+
+
+}
+.contact_left p{
+    width: 50%;
+}
+
+.contact_left .input{
+    margin-left: 100px;
+
+}
+
+.contact_left input{
+    background-color: #2b2b2b;
+    height: 30px;
+    width: 20%;
+    margin-top: 20px;
+    color: white;
+  
+}
+
+textarea{
+    margin-top: 20px;
+    background-color: #2b2b2b;
+    color: white;
+}
+.contact_head{
+    margin-left: 100px;
+    color: tomato;
+}
+
+
+/* footer start */
+
+footer{
+    background-color:#2b2b2b; ;
+}
+footer p{
+
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
